@@ -1,7 +1,7 @@
-CREATE TABLE _customers_table` (
+CREATE TABLE _customers_table (
   Customer ID text,
   Customer Name text,
-  Email` text,
+  Email text,
   Phone Number text,
   Address Line 1 text,
   City text,

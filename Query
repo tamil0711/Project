@@ -1,3 +1,0 @@
-/*  Select customer name and city then order by customer name in asc*/
-SELECT `Customer Name`,`City` FROM _customers_table
-ORDER BY `Customer Name` ASC;

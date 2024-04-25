@@ -1,4 +1,4 @@
---Least Ordered Items
+-- SELECT THE LEAST ORDERED ITEMS
 
 SELECT item_id, SUM(DISTINCT item_id)
 FROM order_details

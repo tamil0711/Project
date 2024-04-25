@@ -1,7 +1,0 @@
---Most Ordered Items
-
-SELECT item_id, SUM(DISTINCT item_id)
-FROM order_details
-GROUP BY item_id
-ORDER BY item_id DESC
-LIMIT 1;

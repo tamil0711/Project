@@ -1,2 +1,0 @@
--- Active: 1714026659045@@127.0.0.1@3306@sales
-SELECT * FROM menu_items;

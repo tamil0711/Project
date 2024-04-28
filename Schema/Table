@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS menu_items
+
+(menu_item_id INT
+
+item name VARCHAR (100)
+
+category VARCHAR (100)
+
+price INT
+
+);

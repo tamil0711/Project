@@ -15,7 +15,6 @@ The sales data is generated for the purpose of this project and represents a typ
 
 -- Tools Used
 - SQL for data querying
-- Excel for data visualization
 
 -- Key Metrics
 - Total sales

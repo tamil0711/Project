@@ -1,0 +1,4 @@
+SELECT menu_item_id,item_name
+FROM menu_items
+ORDER BY price DESC
+LIMIT 5;

@@ -1,2 +1,4 @@
-SELECT AVG(PRICE) AS total_price
-from menu_items;
+SELECT item_name,category,AVG(PRICE) AS total_price
+from menu_items
+GROUP BY item_name,category
+LIMIT 3;

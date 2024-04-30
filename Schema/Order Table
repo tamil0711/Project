@@ -1,1 +1,8 @@
---
+CREATE TABLE IF NOT EXISTS orders_details
+
+(orders_id INT
+order_id INT
+order_date VARCHAR (100)
+order_time VARCHAR (100)
+item_id INT
+);

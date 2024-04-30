@@ -1,0 +1,2 @@
+SELECT AVG(PRICE) AS total_price
+from menu_items;

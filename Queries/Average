@@ -1,3 +1,5 @@
+--Average Sales
+
 SELECT item_name,category,AVG(PRICE) AS total_price
 from menu_items
 GROUP BY item_name,category

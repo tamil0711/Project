@@ -1,4 +1,4 @@
--- Active: 1714389693520@@127.0.0.1@3306@sales
+-- Active: 1714479711255@@127.0.0.1@3306@sales
 SELECT
 HOUR(order_time) AS hours_of_day,
 COUNT(*) AS total_orders,

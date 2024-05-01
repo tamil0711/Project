@@ -1,0 +1,7 @@
+-- select popular menu items by category
+
+SELECT category,item_name,
+COUNT(*) AS total_sold
+FROM menu_items
+GROUP BY category,item_name
+ORDER BY category,item_name DESC;

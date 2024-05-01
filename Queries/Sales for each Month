@@ -1,6 +1,0 @@
---Total sales amount for each month
-
-SELECT DATE_FORMAT(order_date,'%Y-%m-%d') AS month,
-SUM(item_id) AS total_sales_amount
-FROM order_details
-GROUP BY month;

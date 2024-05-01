@@ -1,0 +1,6 @@
+-- select average order value for week
+
+SELECT WEEK(order_date) AS week_number,
+AVG(item_id)AS avg_sales
+FROM order_details
+GROUP BY week_number;

@@ -1,8 +1,0 @@
--- Active: 1714479711255@@127.0.0.1@3306@sales
-SELECT
-HOUR(order_time) AS hours_of_day,
-COUNT(*) AS total_orders,
-SUM(item_id) AS total_sales
-FROM order_details
-GROUP BY hours_of_day
-ORDER BY hours_of_day;
